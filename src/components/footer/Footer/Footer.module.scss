@@ -1,0 +1,27 @@
+.Footer{
+    height: 250px;
+    background-color: black;
+    border-top: 0.2px red solid;
+    color: red;
+    width: 100%;
+    div{
+        height: 200px;
+        width: 98%;
+        margin: 0 auto;
+        color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        ul{
+            padding: 15px;
+            margin: 0 ;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 98%;
+        }
+    }
+}
